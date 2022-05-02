@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap");
+
+.bioWrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 90%;
+  max-width: 30em;
+  margin: 0 auto;
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+
+.bioWrapper p {
+  font-size: calc(14px 0.05vw);
+}
+
+@media screen and (min-width: 1024px) {
+  .bioWrapper {
+    grid-template-columns: 1fr 1fr;
+    max-width: 50em;
+  }
+
+  .bio {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .tintType {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .bioWrapper p {
+    padding: 1em;
+    flex: 1;
+  }
+}

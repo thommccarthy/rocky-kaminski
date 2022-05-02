@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "sign45";
+  src: url("../fonts/SIGN45.woff2");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300&family=Rubik&display=swap");
+
+h1 {
+  font-family: "sign45";
+  color: #ffe013;
+  text-shadow: rgba(255, 0, 0, 0.488) 23px 23px 3px;
+  font-size: calc(20px + 3vw);
+  font-weight: 900;
+  letter-spacing: 1.2px;
+  margin-top: 0.3em;
+  margin-bottom: 0.2em;
+}
+
+.navWrapper {
+  display: block;
+  position: relative;
+  background-color: black;
+}
+
+.navContent {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  background-color: black;
+}
+
+.navFlex {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  list-style: none;
+  justify-content: space-evenly;
+  padding: 1em;
+}
+
+.navLink {
+  font-family: "Rubik", sans-serif;
+  font-size: calc(15px + 0.4vw);
+  color: #ffe013;
+  font-weight: 50000;
+  transition: 0.2s;
+  padding: 0.2em;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.navLink:hover {
+  background: #ffe013;
+  color: black;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  /* h1 {
+    text-shadow: rgba(255, 0, 0, 0.488) 18px 38px 3px;
+  } */
+}

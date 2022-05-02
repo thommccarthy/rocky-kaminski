@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap");
+
+.heroAlbumWrapper {
+  background-image: url(../assets/nebulusbackgrounddarkened_MB.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr;
+  color: white;
+  width: 90%;
+  max-width: 30em;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  margin-bottom: 3.5em;
+}
+
+.albumCover {
+  display: block;
+  position: relative;
+  margin: 0.2em auto;
+}
+
+.albumTitle {
+  position: relative;
+  font-family: "Sign45", sans-serif;
+  color: white;
+  letter-spacing: 1.5px;
+  text-align: left;
+  padding-top: 0.5em;
+  margin-bottom: 0.2em;
+}
+
+.albumTitle::after {
+  content: "";
+  display: block;
+  height: 0.5em;
+  width: 5em;
+  margin-top: 0.4em;
+  margin-bottom: 0.2em;
+  background-color: #ffe013;
+}
+
+.albumSubhead {
+  font-size: calc(18px + 0.1vw);
+  font-family: "Oleo Script Swash Caps", cursive;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.listenButton {
+  display: block;
+  position: relative;
+  text-align: center;
+  background-color: #ffe013;
+  max-width: 14em;
+  text-decoration: none;
+  color: black;
+  font-family: "Rubik", sans-serif;
+  margin-top: 0.6em;
+  padding: 0.2em 0.5em;
+  transition: 0.2s;
+}
+
+.listenButton:hover {
+  letter-spacing: 0.6px;
+  transform: scale(1.05);
+}
+
+@media screen and (min-width: 1024px) {
+  .heroAlbumWrapper {
+    grid-template-columns: 1fr 1fr;
+    max-width: 50em;
+    background-image: url(../assets/nebulusbackgrounddarkened_DT.jpg);
+    background-size: contain;
+    padding: 1.5em 2em;
+  }
+
+  .albumDetails {
+    padding: 4em;
+  }
+}

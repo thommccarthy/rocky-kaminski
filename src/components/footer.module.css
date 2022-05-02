@@ -1,0 +1,39 @@
+.footerWrapper {
+  width: 90%;
+  font-family: "rubik", sans-serif;
+  text-align: center;
+  max-width: 30em;
+  margin: 0 auto;
+  color: white;
+  padding-bottom: 2em;
+  font-size: 0.8em;
+}
+
+.footerWrapperLink {
+  color: #ffe013;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footerWrapperLink:hover {
+  letter-spacing: 0.25px;
+  background: #ffe013;
+  color: black;
+}
+
+.socialWrapper {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.socialIcon {
+  width: 2em;
+}
+
+@media screen and (min-width: 1024px) {
+  .footerWrapper {
+    max-width: 50em;
+  }
+}
