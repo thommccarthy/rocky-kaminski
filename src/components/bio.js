@@ -6,7 +6,10 @@ const Bio = () => {
   return (
     <div className={bioStyles.bioWrapper}>
       <div className={bioStyles.tintType}>
-        <StaticImage src="../assets/tinttype.jpg" />
+        <StaticImage
+          src="../assets/tinttype.jpg"
+          alt="Tint Type of Rocky Kaminski and Quasaria Bognes"
+        />
       </div>
       <div className={bioStyles.bio}>
         <p>

@@ -10,6 +10,7 @@ const Footer = () => {
         <a
           className={footerStyles.footerWrapperLink}
           href="mailto:crabatoadia@gmail.com"
+          title="Footer Email Link"
         >
           crabatoadia@gmail.com
         </a>
@@ -19,23 +20,12 @@ const Footer = () => {
         <a
           href="https://crabatoadia.com"
           target="__blank"
+          title="Footer Link to Crabatoadia Website"
           className={footerStyles.footerWrapperLink}
         >
           crabatoadia
         </a>
       </p>
-      {/* <ul class={footerStyles.socialWrapper}>
-        <li class={footerStyles.socialIcon}>
-          <a>
-            <StaticImage src="../assets/insta-white.png" alt="Instagram Logo" />
-          </a>
-        </li>
-        <li class={footerStyles.socialIcon}>
-          <a>
-            <StaticImage src="../assets/insta-white.png" alt="Instagram Logo" />
-          </a>
-        </li>
-      </ul> */}
     </div>
   )
 }

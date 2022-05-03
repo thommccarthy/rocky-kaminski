@@ -9,6 +9,7 @@ const HeroAlbum = () => {
         <a
           href="https://rockykaminski.bandcamp.com/album/bottomless-pit-the-cannibal-song"
           target="__blank"
+          title="Image Link to Bandcamp"
         >
           <StaticImage
             src="../assets/bottomless-cover.jpg"
@@ -25,6 +26,7 @@ const HeroAlbum = () => {
           className={heroAlbumStyles.listenButton}
           href="https://rockykaminski.bandcamp.com/album/bottomless-pit-the-cannibal-song"
           target="__blank"
+          title="Link to Bandcamp"
         >
           listen on bandcamp
         </a>

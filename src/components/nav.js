@@ -6,7 +6,11 @@ const Nav = () => {
   return (
     <div className={navStyles.navWrapper}>
       <Helmet>
-        <title>Rocky Kaminski | Home</title>
+        <title>Home | Rocky Kaminski</title>
+        <meta
+          name="description"
+          content="Songs for the nuclear jazz age. Apocabilly Jazz from Philadelphia, PA."
+        />
       </Helmet>
 
       <div className={navStyles.navContent}>
