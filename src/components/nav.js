@@ -1,9 +1,14 @@
 import React from "react"
 import * as navStyles from "./nav.module.css"
+import Helmet from "react-helmet"
 
 const Nav = () => {
   return (
     <div className={navStyles.navWrapper}>
+      <Helmet>
+        <title>Rocky Kaminski | Home</title>
+      </Helmet>
+
       <div className={navStyles.navContent}>
         <div>
           <h1>ROCKY KAMINSKI</h1>
