@@ -7,6 +7,10 @@
   margin: 1em auto 2em auto;
 }
 
+#shows {
+  scroll-margin-top: 3em;
+}
+
 .showsWrapper a {
   font-family: "sign45";
   color: #ffe013;
