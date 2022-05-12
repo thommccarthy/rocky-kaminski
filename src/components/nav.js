@@ -1,6 +1,7 @@
 import React from "react"
 import * as navStyles from "./nav.module.css"
 import Helmet from "react-helmet"
+import scrollTo from "gatsby-plugin-smoothscroll"
 
 const Nav = () => {
   return (
@@ -25,6 +26,15 @@ const Nav = () => {
                 title="Music Link Out"
               >
                 music
+              </a>
+            </li>
+            <li>
+              <a
+                className={navStyles.navLink}
+                onClick={() => scrollTo("#shows")}
+                title="Shows Link"
+              >
+                shows
               </a>
             </li>
             <li>
