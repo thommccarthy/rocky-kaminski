@@ -39,6 +39,15 @@ const Nav = () => {
             </li>
             <li>
               <a
+                className={navStyles.navLink}
+                onClick={() => scrollTo("#video")}
+                title="video Link"
+              >
+                video
+              </a>
+            </li>
+            <li>
+              <a
                 href="https://crabatoadia.com/store"
                 className={navStyles.navLink}
                 target="__blank"
