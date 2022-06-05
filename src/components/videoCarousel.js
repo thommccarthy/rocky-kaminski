@@ -18,18 +18,7 @@ const VideoCarousel = () => {
           <iframe
             width="1920"
             height="1080"
-            src="https://www.youtube.com/embed/HJm1QFSazLA"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div className={videoCarouselStyles.videoWrapper}>
-          <iframe
-            width="1920"
-            height="1080"
-            src="https://www.youtube.com/embed/dlRgoSITkBI"
+            src="https://www.youtube.com/embed/NHuJ10bLWNA"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -47,11 +36,23 @@ const VideoCarousel = () => {
             allowfullscreen
           ></iframe>
         </div>
+
         <div className={videoCarouselStyles.videoWrapper}>
           <iframe
             width="1920"
             height="1080"
-            src="https://www.youtube.com/embed/NHuJ10bLWNA"
+            src="https://www.youtube.com/embed/HJm1QFSazLA"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div className={videoCarouselStyles.videoWrapper}>
+          <iframe
+            width="1920"
+            height="1080"
+            src="https://www.youtube.com/embed/dlRgoSITkBI"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
