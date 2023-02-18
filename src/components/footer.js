@@ -16,7 +16,7 @@ const Footer = () => {
         </a>
       </p>
       <p>
-        &copy;2022{" "}
+        &copy;{new Date().getFullYear()}{" "}
         <a
           href="https://crabatoadia.com"
           target="__blank"
