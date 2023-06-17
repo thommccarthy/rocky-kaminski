@@ -14,6 +14,49 @@ const Shows = () => {
       >
         <div className={showsStyles.showDetails}>
           <div className={showsStyles.showDateWrapper}>
+            <h3 className={showsStyles.showDate}>06/17/2023</h3>
+          </div>
+
+          <div className={showsStyles.artistNames}>
+            <a
+              href="https://www.rockykaminski.com"
+              target="__blank"
+              aria-current="page"
+            >
+              Rocky Kaminski
+            </a>
+            <br />
+            <a href="https://thegreatbard.bandcamp.com/" target="__blank">
+              The Great Bard
+            </a>{" "}
+            <br />
+            <a
+              href="https://www.instagram.com/littlenoiseband/?hl=en"
+              target="__blank"
+            >
+              Little Noise
+            </a>
+            <br />
+          </div>
+          <p>
+            <span className={showsStyles.venue}>Upstairs at Abyssinia</span>{" "}
+            <br /> 229 S. 45th St. <br /> Philadelphia, PA
+          </p>
+          <p>Show 8pm</p>
+          <p>$10 cover</p>
+        </div>
+        <div className={showsStyles.posterWrapper}>
+          <StaticImage src="../assets/Abyssinia_Flyer_tall4.jpg" />
+        </div>
+      </div>
+      {/* single show */}
+      <div
+        className={showsStyles.singleShowWrapper}
+        role="group"
+        aria-label="card"
+      >
+        <div className={showsStyles.showDetails}>
+          <div className={showsStyles.showDateWrapper}>
             <h3 className={showsStyles.showDate}>03/15/2023</h3>
           </div>
           <p>
