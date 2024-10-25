@@ -14,6 +14,49 @@ const Shows = () => {
       >
         <div className={showsStyles.showDetails}>
           <div className={showsStyles.showDateWrapper}>
+            <h3 className={showsStyles.showDate}>10/26/2024</h3>
+          </div>
+
+          <div className={showsStyles.artistNames}>
+            <a
+              href="https://bayntonmanorhalloween.rsvpify.com/"
+              target="__blank"
+              aria-current="page"
+            >
+              Baynton Manor Halloween
+            </a>
+            <br />
+          </div>
+          <p>
+            <span className={showsStyles.venue}>Baynton Manor</span> <br /> 5326
+            Baynton St. St. <br /> Philadelphia, PA
+          </p>
+          <p>Show 8pm</p>
+          <p>$10 online/$15 at the door</p>
+        </div>
+      </div>
+      <div
+        className={showsStyles.posterWrapper}
+        style={{ width: `100%`, marginLeft: 0 }}
+      >
+        <StaticImage src="../assets/BayntonManor.jpg" />
+      </div>
+      <a
+        href="https://bayntonmanorhalloween.rsvpify.com/"
+        target="__blank"
+        className={showsStyles.ticketsButton}
+        style={{ marginBottom: `2rem` }}
+      >
+        Get Tickets
+      </a>
+      {/* single show */}
+      <div
+        className={showsStyles.singleShowWrapper}
+        role="group"
+        aria-label="card"
+      >
+        <div className={showsStyles.showDetails}>
+          <div className={showsStyles.showDateWrapper}>
             <h3 className={showsStyles.showDate}>06/17/2023</h3>
           </div>
 
@@ -80,15 +123,6 @@ const Shows = () => {
             1248 N. Front St. <br /> Philadelphia, PA
           </p>
           <p>Doors 7pm | Show 730pm</p>
-
-          <a
-            className={showsStyles.ticketsButton}
-            href="https://www.etix.com/ticket/p/2721417/the-meteors-mighty-joe-castro-and-the-gravamen-rocky-kaminski-philadelphia-kung-fu-necktie"
-            target="__blank"
-            title="Link to Tickets"
-          >
-            Get tickets
-          </a>
         </div>
         <div className={showsStyles.posterWrapper}>
           <StaticImage src="../assets/MJC_Gravamen_Meteors_KFN_Mar15_v2.jpg" />
@@ -125,15 +159,6 @@ const Shows = () => {
             247 S New York Ave <br /> Atlantic City, NJ 08401
           </p>
           <p>Doors 7pm | Show 8pm</p>
-
-          <a
-            className={showsStyles.ticketsButton}
-            href="https://www.tixr.com/groups/anchorrockclub/events/reverend-horton-heat-31498"
-            target="__blank"
-            title="Link to Tickets"
-          >
-            Get tickets
-          </a>
         </div>
         <div className={showsStyles.posterWrapper}>
           <StaticImage src="../assets/rev-horton-heat-may30-new.jpg" />
